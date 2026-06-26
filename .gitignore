@@ -1,0 +1,37 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime user data and logs
+userdata/
+**/settings/states.dat
+*.log
+
+# Local archives and scratch
+__dev_archived/
+*.zip
+
+# Large model artifacts (regenerate/download when needed)
+*.onnx
+*.onnx.part*
+*.pth
+*.pth.part*
+*.ckpt
+*.pt
+*.weights
+*.engine
+
+# Datasets and generated assets
+*.dfs
+build/samples/
